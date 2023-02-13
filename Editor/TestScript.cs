@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class TestScript
 {
+
+    [MenuItem("Test/Test")]
     public static void DoThing()
     {
         Client.Add("https://github.com/JonathanLiuApp/TestUnityGithubPackage.git");
@@ -17,4 +19,6 @@ public class TestScript
             AssetDatabase.DeleteAsset(path);
         }
     }
+
+
 }
